@@ -1,0 +1,609 @@
+<html lang="en">
+<head>
+  <title>Vehicles</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+  <h2>Vehicle Search</h2>
+  <p>Type Vehicle names, vehicle types, and price ranges: </p>  
+  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+  <br>
+  <table class="table table-bordered" style="background-color:white" >
+    <thead>
+      <tr>
+        <th>Car Picture</th>
+        <th>Car Details</th>
+        <th>Car Locations</th>
+      </tr>
+    </thead>
+    <tbody id="myTable">
+      <tr>
+        <td><img src=""></td>
+        <td> New 
+          <br><font size="5"><bold> $20,750</bold> </font><br>
+           2019 Honda Civic Coupe
+           <br>
+          Ext. Color- Red&emsp;&emsp;Transmission-CVT<br>
+          Int. Color- Beige&emsp;&emsp;Drivetrain-FWD<br>
+
+           Pros-<br>
+Excellent fuel economy and performance from turbocharged engine<br>
+Ride quality expertly balances comfort and athleticism<br>
+Many standard advanced technology and safety features<br>
+Roomy cabin with high-quality materials<br>
+Cons-<br>
+Overly vigilant forward collision warning system is frustrating<br>
+Slow-responding adaptive cruise control system<br>
+For more information go to <a href="formoreinfo.htm">our Location webpages.</a>
+</td>
+        <td>
+Las Vegas,Nevada <br>
+Akron,Ohio<br>
+Pittsburgh,
+Pennsylvania<br>
+Austin,
+Texas<br>
+Miami,
+Florida<br>
+Los Angeles,California<br>
+St. Louis, Missouri<br>
+Denver,
+Colorado<br>
+Seattle,
+Washington<br>
+Portland,
+Oregon
+</td>
+      </tr>
+      <tr>
+        <td><img src=""></td>
+        <td>
+New
+<br>
+ <bold><font size="5">$19,500</font></bold><br>
+<font size="3">2020 Toyota Corolla</font><br>
+Ext. Color- Super White&emsp;&emsp;Transmission- Automatic CVT<br>
+Int. Color- Black&emsp;&emsp;Drivetrain- FWD
+<br>
+Pros-<br>
+Long list of standard advanced safety features<br>
+Interior is solidly built and has high-quality materials<br>
+Comfortable ride quality<br>
+Strong fuel economy numbers<br>
+Cons-<br>
+No Android Auto support<br>
+Even the sporty trims are a little slow and not much fun to drive<br>
+Less rear-seat headroom than roomier rivals<br>
+For more information go to <a href="formoreinfo.htm">our Location webpages.</a>
+</td>
+        <td>Las Vegas,Nevada <br>
+Akron,Ohio<br>
+Pittsburgh,
+Pennsylvania<br>
+Austin,
+Texas<br>
+Miami,
+Florida<br>
+Los Angeles,California<br>
+St. Louis, Missouri<br>
+Denver,
+Colorado<br>
+Seattle,
+Washington<br>
+Portland,
+Oregon</td>
+      </tr>
+      <tr>
+        <td><img src=""></td>
+        <td> 
+Used<br>
+<bold><font size="5">$22,800</font></bold><br>
+2019 Ford Mustang Coupe<br>
+Ext. Color-White&emsp;&emsp;Transmission-Automatic<br>
+Int. Color-Black&emsp;&emsp;Drivetrain-RWD<br>
+
+Pros-<br>
+Strong power from both the four-cylinder and V8 engines<br>
+Civilized ride quality and low noise levels<br>
+Cabin blends modern convenience with retro style<br>
+Cons-<br>
+Impractical back seat<br>
+Performance package ride quality can be bouncy<br>
+Long, heavy doors and mediocre cabin access<br>
+For more information go to <a href="formoreinfo.htm">our Location webpages.</a>
+</td>
+        <td>Las Vegas,Nevada <br>
+Akron,Ohio<br>
+Pittsburgh,
+Pennsylvania<br>
+Austin,
+Texas<br>
+Miami,
+Florida<br>
+Los Angeles,California<br>
+St. Louis, Missouri<br>
+Denver,
+Colorado<br>
+Seattle,
+Washington<br>
+Portland,
+Oregon</td>
+      </tr>
+      <tr>
+        <td><img src=""></td>
+        <td>
+Used<br>
+<bold> <font size="5">$14,998</font> </bold>
+<br>
+2018 Nissan Altima S<br>
+Ext. Color-Red&emsp;&emsp;Transmission-CVT<br>
+Int. Color-Black&emsp;&emsp;Drivetrain-FWD<br>
+Pros-<br>
+Front seats are comfortable and supportive on long drives<br>
+Good fuel economy for a sedan of this size<br>
+Altima SR's sport-tuned suspension allows it to handle reasonably well<br>
+Cons-<br>
+Interior design and materials quality is subpar<br>
+Tech interface is unattractive and the touchscreen is positioned low<br>
+Unnatural steering feel and effort<br>
+SR model's sporty suspension makes for an harsh ride quality<br>
+For more information go to <a href="formoreinfo.htm">our Location webpages.</a>
+</td>
+        <td>Las Vegas,Nevada <br>
+Akron,Ohio<br>
+Pittsburgh,
+Pennsylvania<br>
+Austin,
+Texas<br>
+Miami,
+Florida<br>
+Los Angeles,California<br>
+St. Louis, Missouri<br>
+Denver,
+Colorado<br>
+Seattle,
+Washington<br>
+Portland,
+Oregon</td>
+      </tr>
+<tr>
+<td> <img src=""> </td>
+<td> New <br>
+<bold> <font size="5">$40,750</font></bold><br>
+2020 BMW 3 Series<br>
+Ext. Color-Blue&emsp;&emsp;Transmission-8-speed shiftable automatic	<br>
+Int. Color-Black&emsp;&emsp;Drivetrain-RWD<br>
+Pros.-<br>
+Balances sharp handling with a ride quality that won't beat you up<br>
+Strong and efficient four- and six-cylinder engines<br>
+Interior is upscale and spacious, with logical, easy-to-use controls<br>
+Cons-<br>
+New iDrive system is more convoluted to use than before<br>
+Unrefined operation of some driver assist safety aids<br>
+No longer offers a manual transmission<br>
+For more information go to <a href="formoreinfo.htm">our Location webpages.</a>
+</td>
+<td>Las Vegas,Nevada <br>
+Akron,Ohio<br>
+Pittsburgh,
+Pennsylvania<br>
+Austin,
+Texas<br>
+Miami,
+Florida<br>
+Los Angeles,California<br>
+St. Louis, Missouri<br>
+Denver,
+Colorado<br>
+Seattle,
+Washington<br>
+Portland,
+Oregon</td>
+</tr>
+<tr>
+<td> <img src=""> </td>
+<td> New <br>
+<bold> <font size="5">$41,295</font></bold><br>
+2020 Lexus RC F<br>
+Ext. Color-Red&emsp;&emsp;Transmission-8-speed shiftable automatic<br>
+Int. Color-Black&emsp;&emsp;Drivetrain-RWD<br>
+Pros.-<br>
+V8 engine has buckets of personality<br>
+Comfortable seats and a comfortable ride<br>
+Lower cost of entry than competitors<br>
+Excellent build quality<br>
+Cons-<br>
+Out-accelerated and out-handled by competitors<br>
+Hefty weight hampers virtually every dynamic element<br>
+Frustrating and distracting infotainment interface<br>
+Tech features lag behind competitors<br>
+For more information go to <a href="formoreinfo.htm">our Location webpages.</a>
+</td>
+<td>Las Vegas,Nevada <br>
+Akron,Ohio<br>
+Pittsburgh,
+Pennsylvania<br>
+Austin,
+Texas<br>
+Miami,
+Florida<br>
+Los Angeles,California<br>
+St. Louis, Missouri<br>
+Denver,
+Colorado<br>
+Seattle,
+Washington<br>
+Portland,
+Oregon</td>
+</tr>
+<tr>
+<td> <img src=""> </td>
+<td> New <br>
+<bold> <font size="5">$50,000</font></bold><br>
+2019 Audi A4-Fully Loaded<br>
+Ext. Color-Steel Gray&emsp;&emsp;Transmission-6-speed manual<br>
+Int. Color-Black&emsp;&emsp;Drivetrain-AWD<br>
+Pros.-<br>
+Cabin looks cool and is impeccably constructed<br>
+Advanced and easy-to-use safety and technology features<br>
+Back seat is spacious enough for adults<br>
+Turbocharged engine provides quick acceleration in the A4 45 TFSI<br>
+Cons-<br>
+Some initial hesitation from transmission when accelerating<br>
+Lack of feedback from steering limits driver involvement<br>
+For more information go to <a href="formoreinfo.htm">our Location webpages.</a>
+</td>
+<td>Las Vegas,Nevada <br>
+Akron,Ohio<br>
+Pittsburgh,
+Pennsylvania<br>
+Austin,
+Texas<br>
+Miami,
+Florida<br>
+Los Angeles,California<br>
+St. Louis, Missouri<br>
+Denver,
+Colorado<br>
+Seattle,
+Washington<br>
+Portland,
+Oregon</td>
+</tr>
+<tr>
+<td> <img src=""> </td>
+<td> New <br>
+<bold> <font size="5">$34,150</font></bold><br>
+2018 Honda CR-V Touring<br>
+Ext. Color-White&emsp;&emsp;Transmission-Continuously variable-speed automatic<br>
+Int. Color-Black&emsp;&emsp;Drivetrain-AWD<br>
+Pros.-<br>
+Turbocharged engine delivers a rare combination of thrift and zest<br>
+Roomy interior with cavernous cargo capacity for this class<br>
+Rides comfortably yet handles corners athletically<br>
+Plentiful and thoughtful storage areas<br>
+Cons-<br>
+Touchscreen can be finicky to use and lacks a separate tuning knob<br>
+Base LX's engine is weaker and thirstier than the turbo<br>
+Optional navigation system isn't as reliable as expected<br>
+For more information go to <a href="formoreinfo.htm">our Location webpages.</a>
+</td>
+<td>Las Vegas,Nevada <br>
+Akron,Ohio<br>
+Pittsburgh,
+Pennsylvania<br>
+Austin,
+Texas<br>
+Miami,
+Florida<br>
+Los Angeles,California<br>
+St. Louis, Missouri<br>
+Denver,
+Colorado<br>
+Seattle,
+Washington<br>
+Portland,
+Oregon</td>
+</tr>
+<tr>
+<td> <img src=""> </td>
+<td> Used <br>
+<bold> <font size="5">$34,150</font></bold><br>
+2018 Ford Explorer XLT<br>
+Ext. Color-Grey&emsp;&emsp;Transmission-6-speed shiftable automatic<br>
+Int. Color-Black&emsp;&emsp;Drivetrain-AWD<br>
+Pros.-<br>
+Plenty of high-tech features that are easy to use<br>
+Optional turbocharged V6 engine delivers plentiful power<br>
+Cabin is quiet and comfortable on the highway<br>
+Cargo space is generous behind the third row<br>
+Cons-<br>
+Depending on trim level, feels big and ponderous from behind the wheel<br>
+Legroom in the third row is subpar<br>
+For more information go to <a href="formoreinfo.htm">our Location webpages.</a>
+</td>
+<td>Las Vegas,Nevada <br>
+Akron,Ohio<br>
+Pittsburgh,
+Pennsylvania<br>
+Austin,
+Texas<br>
+Miami,
+Florida<br>
+Los Angeles,California<br>
+St. Louis, Missouri<br>
+Denver,
+Colorado<br>
+Seattle,
+Washington<br>
+Portland,
+Oregon</td>
+</tr>
+<tr>
+<td> <img src=""> </td>
+<td> New <br>
+<bold> <font size="5">$52,800</font></bold><br>
+2019 Acura MDX<br>
+Ext. Color-Red&emsp;&emsp;Transmission-9-speed shiftable automatic<br>
+Int. Color-Black&emsp;&emsp;Drivetrain-AWD<br>
+Pros.-<br>
+Generous array of features and active driver aids for the money<br>
+Optional SH-AWD system enhances handling and all-season traction<br>
+Smooth and confident acceleration from the V6 engine<br>
+Quiet, comfortable and spacious cabin<br>
+Cons-<br>
+Cabin looks and feels less luxurious than those of some rivals<br>
+Adaptive cruise control can be slow to respond and abrupt when it does<br>
+Two-screen infotainment system is nonintuitive and difficult to control<br>
+For more information go to <a href="formoreinfo.htm">our Location webpages.</a>
+</td>
+<td>Las Vegas,Nevada <br>
+Akron,Ohio<br>
+Pittsburgh,
+Pennsylvania<br>
+Austin,
+Texas<br>
+Miami,
+Florida<br>
+Los Angeles,California<br>
+St. Louis, Missouri<br>
+Denver,
+Colorado<br>
+Seattle,
+Washington<br>
+Portland,
+Oregon</td>
+</tr>
+<tr>
+<td> <img src=""> </td>
+<td> New <br>
+<bold> <font size="5">$31,690</font></bold><br>
+2020 Nissan Rogue<br>
+Ext. Color-Black&emsp;&emsp;Transmission-Continuously variable-speed automatic<br>
+Int. Color-Black&emsp;&emsp;Drivetrain-AWD<br>
+Pros.-<br>
+Comfortable seats and ride quality<br>
+Many advanced safety aids come standard<br>
+Roomy cabin and cargo area<br>
+Cons-<br>
+Acceleration is weak and listless<br>
+Small, dated-looking infotainment screen<br>
+Outward visibility is poor<br>
+Underwhelming interior materials quality and design<br>
+For more information go to <a href="formoreinfo.htm">our Location webpages.</a>
+</td>
+<td>Las Vegas,Nevada <br>
+Akron,Ohio<br>
+Pittsburgh,
+Pennsylvania<br>
+Austin,
+Texas<br>
+Miami,
+Florida<br>
+Los Angeles,California<br>
+St. Louis, Missouri<br>
+Denver,
+Colorado<br>
+Seattle,
+Washington<br>
+Portland,
+Oregon</td>
+</tr>
+<tr>
+<td> <img src=""> </td>
+<td> Used <br>
+<bold> <font size="5">$23,300</font></bold><br>
+2020 Hyundai Kona<br>
+Ext. Color-Lime Green&emsp;&emsp;Transmission-6-speed shiftable automatic<br>
+Int. Color-Black&emsp;&emsp;Drivetrain-AWD<br>
+Pros-<br>
+Optional turbocharged engine provides quick acceleration<br>
+Nimble handling makes it enjoyable to drive<br>
+Lots of features for your money<br>
+Cons-<br>
+Weak base engine<br>
+Gear shifts from the turbocharged engine's transmission are often unrefined<br>
+Interior is trimmed with a lot of hard plastic panels<br>
+For more information go to <a href="formoreinfo.htm">our Location webpages.</a>
+</td>
+<td>Las Vegas,Nevada <br>
+Akron,Ohio<br>
+Pittsburgh,
+Pennsylvania<br>
+Austin,
+Texas<br>
+Miami,
+Florida<br>
+Los Angeles,California<br>
+St. Louis, Missouri<br>
+Denver,
+Colorado<br>
+Seattle,
+Washington<br>
+Portland,
+Oregon</td>
+</tr>
+<tr>
+<td> <img src=""> </td>
+<td> New <br>
+<bold> <font size="5">$42,500</font></bold><br>
+2020 Mercedes-Benz GLC-Class<br>
+Ext. Color-Steel Gray&emsp;&emsp;Transmission-9-speed shiftable automatic<br>
+Int. Color-Black&emsp;&emsp;Drivetrain-AWD<br>
+Pros-<br>
+Balance of comfort and performance makes it an appealing daily driver<br>
+Elegant design inside and out gives it a true luxury appearance<br>
+Plenty of room for adult-size passengers in back<br>
+Solid fuel economy from the standard four-cylinder engine<br>
+Cons-<br>	
+Pricier than many rivals
+Gear shifts from the turbocharged engine's transmission are often unrefined<br>
+Interior is trimmed with a lot of hard plastic panels<br>
+For more information go to <a href="formoreinfo.htm">our Location webpages.</a>
+</td>
+<td>Las Vegas,Nevada <br>
+Akron,Ohio<br>
+Pittsburgh,
+Pennsylvania<br>
+Austin,
+Texas<br>
+Miami,
+Florida<br>
+Los Angeles,California<br>
+St. Louis, Missouri<br>
+Denver,
+Colorado<br>
+Seattle,
+Washington<br>
+Portland,
+Oregon</td>
+</tr>
+<tr>
+<td> <img src=""> </td>
+<td> Used <br>
+<bold> <font size="5">$28,155</font></bold><br>
+2019 Ford F-150<br>
+Ext. Color-Navy Blue&emsp;&emsp;Transmission-6-speed shiftable automatic<br>
+Int. Color-Black&emsp;&emsp;Drivetrain-RWD<br>
+Pros-<br>
+High towing and payload ratings are ideal for work or play<br>
+Comfort and safety tech spans blue-collar basic to luxury living<br>
+Multiple engines deliver balance of power and fuel economy<br>
+Raptor model's gonzo off-road ability<br>
+Cons-<br>	
+Ride can be rough with an unladen bed<br>
+Fell short of some fuel economy estimates in our real-world testing<br>
+For more information go to <a href="formoreinfo.htm">our Location webpages.</a>
+</td>
+<td>Las Vegas,Nevada <br>
+Akron,Ohio<br>
+Pittsburgh,
+Pennsylvania<br>
+Austin,
+Texas<br>
+Miami,
+Florida<br>
+Los Angeles,California<br>
+St. Louis, Missouri<br>
+Denver,
+Colorado<br>
+Seattle,
+Washington<br>
+Portland,
+Oregon</td>
+</tr>
+<tr>
+<td> <img src=""> </td>
+<td> New <br>
+<bold> <font size="5">$37,790</font></bold><br>
+2019 Toyota Tundra<br>
+Ext. Color-Red&emsp;&emsp;Transmission-6-speed shiftable automatic<br>
+Int. Color-Black&emsp;&emsp;Drivetrain-AWD<br>
+Pros-<br>
+Standard V8 power<br>
+Roomy rear seating<br>
+Standard Toyota Safety Sense driver safety and assist system<br>
+Cons-<br>	
+Below-average fuel economy<br>
+Ride quality is stiffer than on other trucks<br>
+Feels larger than expected when driven on tight and congested roads<br>
+Not as many customization possibilities compared to rivals<br>
+For more information go to <a href="formoreinfo.htm">our Location webpages.</a>
+</td>
+<td>Las Vegas,Nevada <br>
+Akron,Ohio<br>
+Pittsburgh,
+Pennsylvania<br>
+Austin,
+Texas<br>
+Miami,
+Florida<br>
+Los Angeles,California<br>
+St. Louis, Missouri<br>
+Denver,
+Colorado<br>
+Seattle,
+Washington<br>
+Portland,
+Oregon</td>
+</tr>
+<tr>
+<td> <img src=""> </td>
+<td> New <br>
+<bold> <font size="5">$185,000</font></bold><br>
+2020 Porsche Taycan<br>
+Ext. Color-White&emsp;&emsp;Transmission-2-speed automated manual<br>
+Int. Color-Carrera Red&emsp;&emsp;Drivetrain-AWD<br>
+Pros-<br>
+Rapid acceleration and world-class handling<br>
+Uncommonly fast peak charge rate of 270 kW<br>
+Four-door practicality plus two trunks<br>
+Very high build quality and interior finish<br>
+Cons-<br>	
+Rear legroom isn't overly generous<br>
+Others offer more maximum range<br>
+For more information go to <a href="formoreinfo.htm">our Location webpages.</a>
+</td>
+<td>Las Vegas,Nevada <br>
+Akron,Ohio<br>
+Pittsburgh,
+Pennsylvania<br>
+Austin,
+Texas<br>
+Miami,
+Florida<br>
+Los Angeles,California<br>
+St. Louis, Missouri<br>
+Denver,
+Colorado<br>
+Seattle,
+Washington<br>
+Portland,
+Oregon</td>
+</tr>
+    </tbody>
+  </table>
+  
+  <p>Note that we start the search in tbody, to prevent filtering the table headers.</p>
+</div>
+
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+</body>
+</html>
