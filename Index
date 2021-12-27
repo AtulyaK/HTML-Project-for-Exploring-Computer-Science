@@ -1,0 +1,135 @@
+<html>
+<head background=background2.png>
+<img src=banner3.png>
+<title> Stormzcarz </title>
+<!--This is part of the dynamic drive navigation bar-->
+<style type="text/css">
+
+.hovermenu ul{
+font: bold 13px arial;
+padding-left: 0;
+margin-left: 0;
+height: 20px;
+}
+
+.hovermenu ul li{
+list-style: none;
+display: inline;
+}
+
+.hovermenu ul li a{
+padding: 2px 0.5em;
+text-decoration: none;
+float: left;
+color: red;
+background-color: #000000;
+border: 2px solid #000000;
+}
+
+.hovermenu ul li a:hover{
+background-color: #e50000
+border-style: outset;
+}
+<center><font color="white">
+html>body .hovermenu ul li a:active{ /* Apply mousedown effect only to NON IE browsers */
+border-style: inset;
+}
+</font>
+</style>
+
+<center>
+<!--This next code is for the gallery slideshow of the cars-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- optional touchswipe file to enable swipping to navigate slideshow -->
+<script type="text/javascript" src="jquery.touchSwipe.min.js"></script>
+<style>
+
+#fadeshow4 .gallerylayer img{ /* make all images inside fadeshow4 scale to 100% of slideshow width */
+width: 100%;
+height: auto;
+}
+
+</style>
+
+<script type="text/javascript" src="fadeslideshow.js">
+
+/***********************************************
+* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Please keep this notice intact
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+var mygallery4=new fadeSlideShow({
+	wrapperid: "fadeshow4", //ID of blank DIV on page to house Slideshow
+	dimensions: ['50%', 300], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["pic1.jpg", "", "", "This Ferrari is an iconic car that shows the style and beauty of it."],
+		["pic8.png", "", "", "This Porsche 911 Carera is an iconic sports car, with great origin."],
+		["pic9.png", "", "", "The For focus is a cheap car that does not cost a lot but works. "],
+		["pic10.png", "", "", "This 2020 Honda Accord is a good car for a permanent car for a long time and runs for many miles."] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'manual', pause:3000, cycles:0, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 500, //transition duration (milliseconds)
+	descreveal: "always",
+	togglerid: "fadeshow4toggler"
+})
+
+</script>
+</head>
+<body background=background2.png>
+
+<!--Rest of code for dynamic drive navigation bar-->
+<div class="hovermenu">
+<ul>
+<li><a href="index.htm"> Home </a></li>
+<li><a href="page2.htm">Vehicles</a></li>
+<li><a href="page3.htm">Service and Repair</a></li>
+<li><a href="page4.htm"> FAQ</a></li>
+
+</div>
+<br>
+<br>
+<center><div id="fadeshow4"></div></center>
+<!-- tHIS SI WHERE THE GALLERY IS -->
+<div id="fadeshow4toggler" style="width:50%; text-align:center; margin-top:10px">
+<a href="#" class="prev"><img src="http://www.dynamicdrive.com/dynamicindex14/left.png" style="border-width:0" /></a>  <span class="status" style="margin:0 50px; font-weight:bold"></span> <a href="#" class="next"><img src="http://www.dynamicdrive.com/dynamicindex14/right.png" style="border-width:0" /></a>
+</div>
+<br> 
+<br>
+<br>
+<table style="width:100%">
+  <tr>
+    <th></th>
+    <th></th> 
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td align="left"><img src=ad1.png></td>
+    <td align="center"><img src=shopcertified.png><center><button onclick="window.location.href = 'page2.htm';">Learn More</button> </center></td>
+    <td align="center"> <img src=linktopage3.png><center><button onclick="window.location.href = 'page2.htm';">Learn More</button></center></td>
+    <td align="right"><img src=ad1.png></td>
+  </tr>
+</table>
+<h3 style="color:white"> History </h3>
+<p style="color:white"> This company started in 1999. Our CEO and founder, Joe Carey. His freind was ranting about not being able to see multiple car brands in one shop. Joe thought to himslef about it and created Stormzcarz.He had created a brand unheard of in its time. He made it his mission to have anyone with any background to be able to come into his shop and buy or rent one of his amazing cars.
+He also wanted to have anyone whether poor or rich be able to buy a car from his dealership hassle free. It was a hit. Everyone from all over had come to get cars from teis next generation shop.
+</p>
+</body>
+<footer> <font color="white"
+<br>
+Phone Number - (555)-693-0042
+<br>
+E-mail-stormzcarz@skrtskrt.com
+<br>
+Facebook-<a href= "https://www.facebook.com/Stormzcarz/"> Stormzcarz </a>
+<br>
+Twitter-<a href="https://www.twitter.com/@Stormzcarz"> Stormzcarz</a>
+<br>
+Instagram-<a href="https://www.instagram.com/@Stomrzcarz"> Stormzcarz </a>
+<br> 
