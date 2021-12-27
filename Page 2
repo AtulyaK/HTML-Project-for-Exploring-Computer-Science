@@ -1,0 +1,104 @@
+<html>
+<head background=background2.png>
+<img src=banner4.png>
+<title> Stormzcarz </title>
+<!--This is part of the dynamic drive navigation bar-->
+<style type="text/css">
+
+.hovermenu ul{
+font: bold 13px arial;
+padding-left: 0;
+margin-left: 0;
+height: 20px;
+}
+
+.hovermenu ul li{
+list-style: none;
+display: inline;
+}
+
+.hovermenu ul li a{
+padding: 2px 0.5em;
+text-decoration: none;
+float: left;
+color:red;
+background-color: #000000;
+border: 2px solid #000000;
+}
+
+.hovermenu ul li a:hover{
+background-color: #FFE271;
+border-style: outset;
+}
+
+html>body .hovermenu ul li a:active{ /* Apply mousedown effect only to NON IE browsers */
+border-style: inset;
+}
+</style>
+</head>
+<body background=background2.png>
+<!--Rest of code for dynamic drive navigation bar-->
+<div class="hovermenu">
+<ul>
+<li><a href="index.htm"> Home </a></li>
+<li><a href="page2.htm">Vehicles</a></li>
+<li><a href="page3.htm">Service and Repair</a></li>
+<li><a href="page4.htm"> FAQ</a></li>
+
+</ul>
+</div>
+
+</br>
+</br>
+
+<!--This is part of the dynamic drive navigation bar-->
+<style type="text/css">
+
+.hovermenu ul{
+font: bold 13px arial;
+padding-left: 0;
+margin-left: 0;
+height: 20px;
+}
+
+.hovermenu ul li{
+list-style: none;
+display: inline;
+}
+
+.hovermenu ul li a{
+padding: 2px 0.5em;
+text-decoration: none;
+float: left;
+color:red;
+background-color: #000000;
+border: 2px solid #000000;
+}
+
+.hovermenu ul li a:hover{
+background-color: #FFE271;
+border-style: outset;
+}
+
+html>body .hovermenu ul li a:active{ /* Apply mousedown effect only to NON IE browsers */
+border-style: inset;
+}
+</style>
+</head>
+<body background=background2.png>
+<!--Rest of code for dynamic drive navigation bar-->
+<div class="hovermenu">
+<ul>
+<li><a href="index.htm"> Home </a></li>
+<li><a href="page2.htm"></a></li>
+<li><a href="page3.htm">Trucks</a></li>
+<li><a href="page4.htm"> FAQ</a></li>
+
+</ul>
+</div>
+<!-- Slashdot menu here find and figure out on dynamic drive-->
+</body>
+<table>
+<tr>
+<th> </th>
+</tr>

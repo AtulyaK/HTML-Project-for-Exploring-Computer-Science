@@ -1,0 +1,52 @@
+<html>
+<head>
+<img src= banner6.png>
+<title> Stormzcarz </title>
+<!--This is part of the dynamic drive navigation bar-->
+<style type="text/css">
+
+.hovermenu ul{
+font: bold 13px arial;
+padding-left: 0;
+margin-left: 0;
+height: 20px;
+}
+
+.hovermenu ul li{
+list-style: none;
+display: inline;
+}
+
+.hovermenu ul li a{
+padding: 2px 0.5em;
+text-decoration: none;
+float: left;
+color: black;
+background-color: #FFF2BF;
+border: 2px solid #FFF2BF;
+}
+
+.hovermenu ul li a:hover{
+background-color: #FFE271;
+border-style: outset;
+}
+
+html>body .hovermenu ul li a:active{ /* Apply mousedown effect only to NON IE browsers */
+border-style: inset;
+}
+</style>
+</head>
+<body>
+<!--Rest of code for dynamic drive navigation bar-->
+<div class="hovermenu">
+<ul>
+<li><a href="index.htm"> Home </a></li>
+<li><a href="page2.htm">Vehicles</a></li>
+<li><a href="page3.htm">Service and Repair</a></li>
+<li><a href="page4.htm"> FAQ</a></li>
+
+</ul>
+</div>
+
+</body>
+</html>
