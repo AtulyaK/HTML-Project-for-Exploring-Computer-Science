@@ -1,0 +1,103 @@
+<html>
+<head background=background2.png>
+<img src=banner5.png>
+<title> Stormzcarz </title>
+<!--This is part of the dynamic drive navigation bar-->
+<style type="text/css">
+
+.hovermenu ul{
+font: bold 13px arial;
+padding-left: 0;
+margin-left: 0;
+height: 20px;
+}
+
+.hovermenu ul li{
+list-style: none;
+display: inline;
+}
+
+.hovermenu ul li a{
+padding: 2px 0.5em;
+text-decoration: none;
+float: left;
+color: red;
+background-color: #000000;
+border: 2px solid #000000;
+}
+
+.hovermenu ul li a:hover{
+background-color: #FFE271;
+border-style: outset;
+}
+
+html>body .hovermenu ul li a:active{ /* Apply mousedown effect only to NON IE browsers */
+border-style: inset;
+}
+</style>
+</head>
+<body background=background2.png>
+<!--Rest of code for dynamic drive navigation bar-->
+<div class="hovermenu">
+<ul>
+<li><a href="index.htm"> Home </a></li>
+<li><a href="page2.htm">Vehicles</a></li>
+<li><a href="page3.htm">Service and Repair</a></li>
+<li><a href="page4.htm"> FAQ</a></li>
+
+</ul>
+</div>
+</br>
+</br>
+<font color="white">
+<center><table style="color:white">
+<tr>
+<th> </th>
+<th> </th>
+</tr>
+<tr>
+<td> <font size="5"><strong><center>Service Centers</center></strong> <br> 
+<center>Service centers offered by Stormzcarz </center><br><center> To find out more click here
+<br><a href='servicecentesnearmelink.htm'><button>Find Service Centers</button></a></font></center>
+</td>
+<td><img src="servicemap.jpg"> </td>
+<tr>
+</table></center>
+</font>
+<br>
+<center><h2 style="color:white"> Quick Fix Videos </h2> </center>
+<center><table style="width:100%">
+<tr>
+<th> </th>
+<th> </th>
+<th> </th>
+<th> </th>
+</tr>
+<tr>
+<td><img src="24..7autoserviceimageoffinternet.png" width="250px"> <br> <img src="24..7autoserviceimageoffinternet.png" width="250px"></td>
+<td><center><img src=video1.png> <br> <a href='servicecentesnearmelink.htm'><button>Go to Video</button></a><button></center></td>
+<td><center><img src=video2.png><br> <a href='servicecentesnearmelink.htm'><button>Go to Video</button></a><button></center></td>
+<td><img src="page3ad3.png"> </td>
+</tr>
+<tr>
+<td><img src="24..7autoserviceimageoffinternet.png" width="250px"><br><img src="24..7autoserviceimageoffinternet.png" width="250px"> </td>
+<td><center> <img src=video3.png> <br> <a href='servicecentesnearmelink.htm'><button>Go to Video</button></a><button></center></td>
+<td><center><img src=video4.png> <br> <a href='servicecentesnearmelink.htm'><button>Go to Video</button></a><button></center></td>
+<td><img src="page3ad3.png"> </td>
+</tr>
+</table></center>
+
+</body><font size="4"><footer style="background-color:#cae8dc">
+<footer> <font color="black">
+<center> <strong> Contact Us </strong> </center>
+<br>
+Phone Number - (555)-693-0042
+<br>
+E-mail- Stormzcarz@skrtskrt.com
+<br>
+Facebook-<a href= "https://www.facebook.com/Stormzcarz/"> Stormzcarz </a>
+<br>
+Twitter-<a href="https://www.twitter.com/@Stormzcarz"> Stormzcarz</a>
+<br>
+Instagram-<a href="https://www.instagram.com/@Stomrzcarz"> Stormzcarz </a>
+<br> 
