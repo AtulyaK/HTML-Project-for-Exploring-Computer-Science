@@ -3,10 +3,10 @@ This is a project I did in my Exploring Computer Science Class.
 
 I had put 5 pages for the project. 
 
-1. There are two pages that do not work.
+1. There are two pages that were not complete at the time.
   
-	a. One of the pages had a trial page. That is labeled as trialpage2.html. This page had an extremely cool search feature. It allowed you to search for a 
-     name of a car brands, drivetrain types, exterior color, and interior color. 
+	a. One of the pages had a trial page. That is labeled as **trialpage2.html**. This page had an extremely cool search feature. It allowed you to search for a 
+     name of a car brands, drivetrain types, exterior color, and interior color. **The search function works properly**.
   
 	b. The second page was not completed.
 
